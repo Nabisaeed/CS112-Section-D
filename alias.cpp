@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
     // Define an alias for the int data type
-    typedef int integer;
+    typedef float integer;
 
     // Declare and initialize variables using the alias and the original type
     integer x = 45;
