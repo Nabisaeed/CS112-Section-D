@@ -2,7 +2,7 @@
 #include "structure.cpp"
 #include <cassert>
 #define Sqaure(x) (#x)
-int main(){ 
+int main(){  
 
 int age=50;
 cout<<"The sqaure of 5 is : "<<Sqaure(age)<<endl;
