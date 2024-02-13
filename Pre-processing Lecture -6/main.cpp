@@ -16,6 +16,7 @@ cout<<"The sqaure of 5 is : "<<Sqaure(age)<<endl;
 
     cout<<"The age of the student is : "<<s1.age<<endl;
     cout<<"The height of the student is : "<<s1.height<<endl;
+    #include <cassert>
 
  add(45, 50);
 

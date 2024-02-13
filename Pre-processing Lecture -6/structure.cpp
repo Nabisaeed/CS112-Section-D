@@ -1,5 +1,5 @@
 struct student
 {
-    int age;
+    int age;  
     float height;
 };
