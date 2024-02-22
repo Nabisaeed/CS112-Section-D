@@ -2,30 +2,38 @@
 #include <iostream>
 using namespace std;
     
-    class employee{
+// Defining a class named employee
+class employee {
 public:
-string name;
-int age;
+    string name;    // Name of the employee
+    int age;        // Age of the employee
 
-employee(){
+    // Default constructor initializing name and age
+    employee() {
+        name = "Ahmad";
+        age = 28;
+    }
 
-    name= "Ahmad";
-    age=28;
-   
-}
+    // Destructor to clean up resources
+    ~employee() {
+        cout << "Destructor is called " << endl;
+    }
+};
 
-employee(employee &o1){
+// Main function where the program execution starts
+int main() {
+    // Creating a pointer to an instance of the employee class using dynamic memory allocation
+    employee *p = new employee;
 
-    o1.age= age;
-    o1.name=name;
-}
-    };
-int main()
-{
-    employee e1;
+    // Printing the name and age of the employee
+    cout << p->name << endl;
+    cout << p->age << endl;
 
-    employee e2=e1;
-    
-     return 0;
-    
+    // Printing a message
+    cout << "Helloooo" << endl;
+
+    // Deallocating the memory assigned to the employee object
+    delete p;
+
+    return 0;
 }
