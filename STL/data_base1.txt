@@ -1,0 +1,3 @@
+ahmad 23 A EE 
+hamid 22 B SE 
+Khan 20 F ME
